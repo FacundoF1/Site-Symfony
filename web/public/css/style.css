@@ -1,0 +1,222 @@
+*{
+  letter-spacing: 0.1em;
+  font-family: "Josefin Sans", sans-serif;
+}
+section{
+  padding: 0;
+  margin: 0;
+}
+a{
+  color:rgb(230, 72, 21);
+}
+h2{
+  padding: 0;
+  margin: 0;
+}
+h3,h4{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+hr{
+  margin: 0;
+  padding: 0;
+}
+.panel{
+  background:rgb(230, 72, 21);
+}
+.navbar{
+  padding: auto;
+  margin: auto;
+  color: rgb(129, 129, 129);
+}
+nav{
+  width: 100%;
+  height: 5%;
+  padding: 1%;
+  background: transparent !important;
+  color: rgb(129, 129, 129);
+}
+.infor{
+  color: rgb(129, 129, 129);
+  padding: 7px 0 7px 0;
+}
+.infor span:hover{
+  color:rgb(230, 72, 21);
+}
+.infor2{
+  color: rgb(129, 129, 129);
+}
+.decoracion{
+  color: rgb(230, 72, 21);
+}
+.decoration{
+  background: rgb(230, 72, 21);
+  color: white;
+}
+.logo{
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 30%;
+}
+.facebook:hover{
+  background: rgb(7, 70, 210);
+  color: white;
+}
+.twiter:hover{
+  background: rgb(6, 128, 207);
+  color: white;
+}
+.infor3{
+  text-align: center;
+  color: rgb(79, 79, 79);
+  padding: 2%;
+}
+.infor3 i{
+  color: rgb(230, 72, 21);
+}
+.jumbotron{
+  margin: 0;
+  height: 600px auto;
+  background: white;
+}
+.banner{
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100px !important;
+}
+.slide{
+  padding: 0;
+  margin: 0;
+  height: 300px;
+  width: 100%;
+  bottom: 0;
+}
+.imagen{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 300px !important;
+}
+.sidebar{
+  background: rgba(62, 62, 62, 0.79);
+  position: relative;
+
+}
+/*Sec1*/
+.sec1{
+  background-color: rgba(55, 55, 55, 0.96);
+  color: white;
+  text-align: center;
+  box-shadow: rgba(220,220,220,.65) 3px 3px 10px 5px inset;
+}
+.papel{
+  padding-top: 2%;
+}
+/*Sec2*/
+.sec2{
+  color: rgb(64, 64, 64);
+  padding: 4% 0 0 0;
+}
+.sec2 .panel-2{
+  position: relative;
+  height: 300px;
+  top: 5%;
+}
+.sec2 .imagen2{
+  background-image: url(../../images/dados.png);
+}
+/*End sec2*/
+#footer{
+  position: relative;
+  bottom: 0 !important;
+  width: 100%;
+  padding-top: 12px;
+  background-color: rgba(55, 55, 55, 0.96);
+  color: white;
+  font: 1.2em Poiret One, cursive;
+}
+.copy{
+  text-align: center;
+  color: rgba(227, 95, 0, 0.96);
+}
+.slide .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  z-index: 15;
+  width: 20%;
+  left:75%;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  list-style: none;
+}
+.slide .carousel-indicators li {
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #696969;
+  border-radius: 10px;
+}
+.slide .carousel-indicators .active {
+  width: 65px;
+  height: 7px;
+  margin: 0;
+  background-color: #0500ff;
+  box-shadow: 10px 3px 10px rgba(45, 45, 45, 0.96);
+}
+.slide .carousel-caption {
+  position: absolute;
+  width: 20%;
+  left: 75%;
+  top: 0px;
+  bottom: 0;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-color: rgba(227, 95, 0, 0.96);
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  box-shadow: 5px 5px 15px rgba(227, 95, 0, 0.96);
+  border-radius: 3px;
+}
+@media (min-width: 320px) {
+  .one{
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}
+@media (min-width: 360px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 800px) {
+  .one{
+    top:2em;
+    left: 9em;
+  }
+}
+@media (min-width: 980px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+  .one{
+    position: relative;
+    top:2em;
+    left: 9em;
+  }
+}

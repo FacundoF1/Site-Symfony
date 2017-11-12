@@ -1,0 +1,55 @@
+<!-- Seccion top nav -->
+                <div class="container-fluid" style="border-bottom: 1px solid rgb(186, 186, 186);">
+                  <div class="col-md-8 infor hidden-xs">
+                      <span><i class="fa fa-eye"> </i> : | </span>
+                      <span><i class="fa fa-map-marker"> </i> Corrientes, Argentina |</span>
+                      <span><i class="fa fa-at"> </i> FacundoF1@hotmail.com.ar |</span>
+                      <span><i class="fa fa-phone"> </i> +54 (0) 379-5052-639 </span>
+                  </div>
+                  <div class="col-md-4 col-xs-12 infor2">
+                    <span class="fa-stack fa-lg pull-right">
+                      <a href="https://twitter.com/FacundoF11">
+                      <i class="fa fa-square-o fa-stack-2x"></i>
+                      <i class="fa fa-twitter fa-stack-1x twiter"></i></a>
+                    </span>
+                    <span class="fa-stack fa-lg pull-right">
+                      <a href="https://ar.linkedin.com/in/facundo-ferrari-543a0810a">
+                      <i class="fa fa-square-o fa-stack-2x"></i>
+                      <i class="fa fa-linkedin fa-stack-1x"></i></a>
+                    </span>
+                    <span class="fa-stack fa-lg pull-right">
+                      <a href="https://plus.google.com/u/0/116570644313094833506">
+                      <i class="fa fa-square-o fa-stack-2x"></i>
+                      <i class="fa fa-google-plus fa-stack-1x"></i></a>
+                    </span>
+                    <span class="fa-stack fa-lg pull-right">
+                      <a href="https://www.instagram.com/facundof1/">
+                      <i class="fa fa-square-o fa-stack-2x"></i>
+                      <i class="fa fa-instagram fa-stack-1x"></i></a>
+                    </span>
+                  </div>
+                </div>
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="index.php">CODE_DEV</a>
+                    </div>
+                    <div class="collapse navbar-collapse pull-rigth" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav">
+                        <li><a href="{{ path('cd_user_index') }}">{% trans %} Services {% endtrans %}</a></li>
+                      </ul>
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="{{ path('cd_user_add') }}"><i class="fa fa-user-circle"></i>
+                        {% trans %} Sign in {% endtrans %}</a></li>
+                      </ul>                      
+                    </div>
+                  </div><!-- /.container-fluid -->
+                </nav>
+                <div class="panel"></div>

@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>New User</source>
+                <target>Nuevo Usuario</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Username</source>
+                <target>Usuario</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Firstname</source>
+                <target>Nombre</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Lastname</source>
+                <target>Apellido</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Email</source>
+                <target>Correo electronico</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Password</source>
+                <target>Contraseña</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Rol</source>
+                <target>Rol</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>Create user</source>
+                <target>Crear usuario</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>Select a role</source>
+                <target>Seleccionar un rol</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>Your User name</source>
+                <target>Ingrese nombre usuario</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>Your First name</source>
+                <target>Ingrese su nombre</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>Your Last name</source>
+                <target>Ingrese su apellido</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>Active</source>
+                <target>Activo</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>Sign in</source>
+                <target>Registrarse</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>Services</source>
+                <target>Servicios</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>User list</source>
+                <target>Lista de Usuarios</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>Actions</source>
+                <target>Acciones</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>View</source>
+                <target>Ver</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>Edit</source>
+                <target>Editar</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>Delete</source>
+                <target>Eliminar</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>Administrator</source>
+                <target>Administrador</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>The user has been created.</source>
+                <target>El usuario ha sido creado.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>Previous</source>
+                <target>Anterior</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>Next</source>
+                <target>Siguiente</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>Total records</source>
+                <target>Total registros</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>User not found.</source>
+                <target>Usuario no encontrado.</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>Edit User</source>
+                <target>Editar Usuario</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Confirm ...</source>
+                <target>Confirmar ...</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>Are you seru?</source>
+                <target>Estas seguro?</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>The user coult not has be deleted.</source>
+                <target>El usuario no a sido eliminado.</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>The user has been deleted.</source>
+                <target>El usuario a sido eliminado.</target>
+            </trans-unit>
+            
+        </body>
+    </file>
+</xliff>

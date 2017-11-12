@@ -1,0 +1,4 @@
+services:
+#    cd_user.example:
+#        class: CD\UserBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
